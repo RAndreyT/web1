@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Source – My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        pre { background:#f8f8f8; padding:1rem; overflow:auto; }
+        code { font-family: Consolas, "Courier New", monospace; white-space:pre; }
+        .loader { color:#777; font-style:italic; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>John Doe</h1>
+        <p>Full‑Stack Developer &amp; Designer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="source.html">Source</a></li>
+        </ul>
+    </nav>
+
+    <section id="source">
+        <h2>Source Code</h2>
+
+        <!-- Program.cs ---------------------------------------------------- -->
+        <h3>Program.cs</h3>
+        <pre class="loader" id="prog-loader">Loading Program.cs…</pre>
+        <pre><code id="prog-code"></code></pre>
+
+        <!-- Form1.cs ------------------------------------------------------ -->
+        <h3>Form1.cs</h3>
+        <pre class="loader" id="form1-loader">Loading Form1.cs…</pre>
+        <pre><code id="form1-code"></code></pre>
+
+        <!-- Form2.cs ------------------------------------------------------ -->
+        <h3>Form2.cs</h3>
+        <pre class="loader" id="form2-loader">Loading Form2.cs…</pre>
+        <pre><code id="form2-code"></code></pre>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 John Doe. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Utility: fetch a file and inject its contents into a <code> element.
+        async function loadSource(filePath, codeElId, loaderId) {
+            try {
+                const resp = await fetch(filePath);
+                if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+                const text = await resp.text();
+                document.getElementById(codeElId).textContent = text;
+            } catch (e) {
+                document.getElementById(codeElId).textContent = `⚠️Failed to load ${filePath}: ${e.message}`;
+            } finally {
+                // hide loader line
+                const loader = document.getElementById(loaderId);
+                if (loader) loader.style.display = 'none';
+            }
+        }
+
+        // Relative paths – adjust if you move the src folder.
+        loadSource('src/Program.cs',   'prog-code',   'prog-loader');
+        loadSource('src/Form1.cs',    'form1-code',  'form1-loader');
+        loadSource('src/Form2.cs',    'form2-code',  'form2-loader');
+    </script>
+</body>
+</html>
