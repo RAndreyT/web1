@@ -1,29 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>RAndreyT – Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header>
-        <h1>RAndreyT</h1>
-        <p>THIS IS A TEST SITE</p>
-    </header>
+    <!-- Navigation -->
     <nav>
-        <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-</ul>
+        <div class="container flex justify-between items-center">
+            <a href="#" class="text-white">RAndreyT</a>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="text-gray-300">Home</a></li>
+                <li><a href="#about" class="text-gray-300">About</a></li>
+                <li><a href="#projects" class="text-gray-300">Projects</a></li>
+                <li><a href="#contact" class="text-gray-300">Contact</a></li>
+                     <div class="dark-mode">
+                            <button id="theme-toggle">🌙 Dark Mode</button>
+                     </div>
+            </ul>
+        </div>
     </nav>
-    <section id="home">
-        <h2>Welcome</h2>
-        <p>This is my portfolio. Use the navigation above to learn more.</p>
+
+
+ <section id="home">
+    <div class="container text-center">
+        <h1>Hi, I’m Andrey!</h1>
+        <div class="home-image">
+            <img src="images/img.png" alt="My Profile">
+        </div>
+        <p>Full-stack developer & UI/UX enthusiast turning ideas into reality.</p>
+        <a href="#projects" class="btn-primary">View My Work</a>
+    </div>
+</section>
+
+    <section id="prof" class="py-16">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate developer with experience building web applications, mobile apps, and designing user‑centred interfaces. I love solving problems and crafting clean, performant code.</p>
+        </div>
     </section>
+
+
+    <section id="projects" class="py-16">
+        <div class="container">
+            <h2>PROJECTS</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Project One</h3>
+                    <p>A brief description of the project, technologies used, and the problem it solves.</p>
+                    <a href="#" class="button">View Demo</a>
+                </div>
+                <div class="project">
+                    <h3>Project Two</h3>
+                    <p>Another project summary with a link to the repository or live site.</p>
+                    <a href="#" class="button">Source</a>
+                </div>
+                <div class="project">
+                    <h3>Project Three</h3>
+                    <p>Description of a third project, highlighting key features and outcomes.</p>
+                    <a href="#" class="button">View Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="py-16">
+        <div class="container text-center">
+            <h2>Get In Touch</h2>
+            <p>Feel free to reach out via email or connect on LinkedIn.</p>
+            <a href="mailto:ralt.drive@gmail.com" class="contact-btn">ralt.drive@gmail.com</a>
+        </div>
+    </section>
+
+
     <footer>
-        <p>&copy; 2026 John Doe. All rights reserved.</p>
+        <div class="container text-center">
+            <p>&copy; 2026 RAndreyT. All rights reserved.</p>
+        </div>
     </footer>
 </body>
+<script src="script.js"></script>
+
 </html>

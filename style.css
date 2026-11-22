@@ -16,7 +16,7 @@ nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    background: #e8491d;
+    background: #06003b;
     margin: 0;
     padding: 0;
 }
@@ -51,14 +51,60 @@ section {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 12px;
-    background: #35424a;
-    color: #fff;
     text-decoration: none;
     border-radius: 4px;
+     background: #ff0000;
+}
+.button:hover {
+    background: #35424a;
+    color: #fff;
 }
 footer {
     text-align: center;
     padding: 10px;
     background: #35424a;
     color: #fff;
+}
+#home {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.home-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Dark Mode Sections */
+.dark-mode section {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Dark Mode Headings */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode p {
+    color: #ffffff;
+}
+
+/* Dark Mode Button */
+#theme-toggle {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Smooth transition */
+body {
+    transition: background-color 0.3s, color 0.3s;
 }

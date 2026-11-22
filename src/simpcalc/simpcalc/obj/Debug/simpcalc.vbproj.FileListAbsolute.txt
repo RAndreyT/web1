@@ -1,0 +1,23 @@
+E:\simpcalc\simpcalc\bin\Debug\simpcalc.exe
+E:\simpcalc\simpcalc\bin\Debug\simpcalc.pdb
+E:\simpcalc\simpcalc\bin\Debug\simpcalc.xml
+E:\simpcalc\simpcalc\obj\Debug\ResolveAssemblyReference.cache
+E:\simpcalc\simpcalc\obj\Debug\WindowsApplication1.Form1.resources
+E:\simpcalc\simpcalc\obj\Debug\WindowsApplication1.Resources.resources
+E:\simpcalc\simpcalc\obj\Debug\simpcalc.vbproj.GenerateResource.Cache
+E:\simpcalc\simpcalc\obj\Debug\simpcalc.exe
+E:\simpcalc\simpcalc\obj\Debug\simpcalc.xml
+E:\simpcalc\simpcalc\obj\Debug\simpcalc.pdb
+C:\Users\Lenovo\OneDrive\Documents\Visual Studio 2008\Projects\simpcalc\simpcalc\obj\Debug\simpcalc.exe
+C:\Users\Lenovo\OneDrive\Documents\Visual Studio 2008\Projects\simpcalc\simpcalc\obj\Debug\simpcalc.xml
+C:\Users\Lenovo\OneDrive\Documents\Visual Studio 2008\Projects\simpcalc\simpcalc\obj\Debug\simpcalc.pdb
+C:\Users\Lenovo\OneDrive\Documents\Visual Studio 2008\Projects\simpcalc\simpcalc\bin\Debug\simpcalc.exe
+C:\Users\Lenovo\OneDrive\Documents\Visual Studio 2008\Projects\simpcalc\simpcalc\bin\Debug\simpcalc.pdb
+C:\Users\Lenovo\OneDrive\Documents\Visual Studio 2008\Projects\simpcalc\simpcalc\bin\Debug\simpcalc.xml
+C:\Users\Lenovo\OneDrive\Documents\Visual Studio 2008\Projects\simpcalc\simpcalc\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Documents\Visual Studio 2008\Projects\simpcalc\simpcalc\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Lenovo\OneDrive\Documents\Visual Studio 2008\Projects\simpcalc\simpcalc\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Lenovo\OneDrive\Documents\Visual Studio 2008\Projects\simpcalc\simpcalc\obj\Debug\simpcalc.vbproj.GenerateResource.Cache
+C:\Users\Lenovo\Downloads\simpcalc\simpcalc\obj\Debug\simpcalc.exe
+C:\Users\Lenovo\Downloads\simpcalc\simpcalc\obj\Debug\simpcalc.xml
+C:\Users\Lenovo\Downloads\simpcalc\simpcalc\obj\Debug\simpcalc.pdb
